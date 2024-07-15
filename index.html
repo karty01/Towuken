@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TON Mini App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        #startButton {
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to TON Mini App</h1>
+    <button id="startButton">Start Game</button>
+    <script>
+        document.getElementById('startButton').addEventListener('click', () => {
+            alert('Game Started! You will earn 250 coins in 8 hours.');
+        });
+    </script>
+</body>
+</html>
